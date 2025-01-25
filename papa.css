@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:rgb(245, 242, 233);
+}
+
+header {
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #d7f074;
+    
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 3px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #6095e4;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #155a43;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+        /* Simple styling for the footer */
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 75vh;
+        }
+
+        .content {
+            flex: 1; /* Allows the content to expand and push the footer to the bottom */
+        }
+
+        footer {
+            background-color: #5d9496;
+            color: #030101;
+            text-align: center;
+            padding: 0.001px;
+            
+        }
+   
