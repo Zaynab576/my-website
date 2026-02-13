@@ -197,16 +197,18 @@ body {
     }
 }
 /* ===== SCROLL ANIMATION ===== */
+
 .hidden {
     opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.8s ease;
+    transform: translateY(60px);
+    transition: all 0.8s cubic-bezier(.17,.67,.83,.67);
 }
 
 .show {
     opacity: 1;
     transform: translateY(0);
 }
+
 /* ===== GALLERY ===== */
 
 .gallery-grid {
@@ -236,6 +238,7 @@ body {
 .gallery-item:hover {
     border-color: #f5b301;
 }
+
 
 
 
