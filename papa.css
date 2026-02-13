@@ -35,18 +35,12 @@ body {
     align-items: center;
 }
 
-.logo {
-    background: white;
-    padding: 8px 15px;
-    border-radius: 6px;
-}
-
 .logo img {
     height: 60px;
-    display: block;
 }
 
-}
+
+
 
 .nav-links a {
     text-decoration: none;
@@ -200,6 +194,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
